@@ -10,7 +10,8 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.Base64;
 
-import static jdk.nashorn.internal.runtime.regexp.joni.Config.log;
+// 画一张图，展示 Xmx、Xms、Xmn、Metaspache、DirectMemory、Xss这些内存参数的关系。
+// 对应地址：https://www.processon.com/mindmap/610ff1261e08536191cd9476
 
 /**
  * @author liyintao
