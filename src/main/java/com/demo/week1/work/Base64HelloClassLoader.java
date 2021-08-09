@@ -33,10 +33,13 @@ public class Base64HelloClassLoader extends ClassLoader {
 
         try {
             Class<?> hello = new Base64HelloClassLoader().loadClass("Hello");
+            // 查看里面有什么方法
             for (Method m : hello.getDeclaredMethods()) {
                 System.out.println(hello.getSimpleName() + "." + m.getName());
             }
+            // 创建对象
             Object instance = hello.newInstance();
+            // 调用实例方法
             Method method = hello.getMethod("hello");
             method.invoke(instance);
         } catch (ClassNotFoundException e) {

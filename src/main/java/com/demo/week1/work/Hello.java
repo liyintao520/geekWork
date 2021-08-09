@@ -5,6 +5,8 @@ package com.demo.week1.work;
  * @version 1.0.0
  * @ClassName Hello.java
  * @Description 涉及基本类型，四则运行，if 和 for，然后自己分析一下对应的字节码
+ *              编译代码, 执行命令： javac -g Hello.java
+ *              javap -v Hello.class
  * @createTime 2021年08月09日 11:26:00
  */
 public class Hello {
